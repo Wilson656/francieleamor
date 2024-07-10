@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap");
+
+* {
+  font-family: "Playwrite DK Uloopet", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fd99a2;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.casa {
+  border-radius: 10px;
+  margin-top: 60px;
+  background-color: white;
+  width: 50%;
+  height: 800px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  margin-top: 25px;
+}
+
+.casa img {
+  margin-top: 25px;
+  width: 600px;
+}
+
+.buttons_casa {
+  display: flex;
+  gap: 35px;
+  margin-top: 50px;
+}
+#sim {
+  height: 40px;
+  width: 60px;
+  background-color: #fd99a2;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-left: -50px;
+}
+#nao {
+  position: absolute;
+  height: 40px;
+  width: 60px;
+  background-color: #fd99a2;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-left: 10px;
+}
+@media (max-width: 1440px) {
+  .casa {
+    text-align: center;
+
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: white;
+    width: 90%;
+    height: 800px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  .casa {
+    text-align: center;
+
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: white;
+    width: 90%;
+    height: 800px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .casa img {
+    margin-top: 25px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 425px) {
+  .casa {
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: white;
+    width: 90%;
+    height: 800px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .casa img {
+    margin-top: 25px;
+    width: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .casa img {
+    margin-top: 25px;
+    width: 250px;
+  }
+}
